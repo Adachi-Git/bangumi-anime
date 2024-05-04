@@ -9,6 +9,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:  # 也支持手动触发
   schedule:
     - cron:  '45 11 * * *'  # Cron 表达式 🕰️
     
